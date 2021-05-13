@@ -1,4 +1,4 @@
-#Update 2020.4.28 Self-use for testing only, there may be a lot of manslaughter.
+#Update 2021.1.30 Self-use for testing only.
 DOMAIN-SUFFIX,admaster.com
 DOMAIN-SUFFIX,0z5jn.cn
 DOMAIN-SUFFIX,114so.cn
@@ -134,14 +134,12 @@ DOMAIN-SUFFIX,bugreportv2.qq.com
 DOMAIN-SUFFIX,c.l.qq.com
 DOMAIN-SUFFIX,c2.l.qq.com
 DOMAIN-SUFFIX,cb.l.qq.com
-DOMAIN-SUFFIX,cdn.ark.qq.com
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,client.show.qq.com
 DOMAIN-SUFFIX,cm.e.qq.com
 DOMAIN-SUFFIX,cm.l.qq.com
 DOMAIN-SUFFIX,dir.minigame.qq.com
 DOMAIN-SUFFIX,etg.qq.com
-DOMAIN-SUFFIX,ex.qq.com
 DOMAIN-SUFFIX,fm.qzone.qq.com
 DOMAIN-SUFFIX,fodder.qq.com
 DOMAIN-SUFFIX,fodder.tc.qq.com
@@ -319,7 +317,6 @@ DOMAIN-SUFFIX,cpro.baidustatic.com
 DOMAIN-SUFFIX,cpro.tieba.baidu.com
 DOMAIN-SUFFIX,cpro2.baidustatic.com
 DOMAIN-SUFFIX,dup.baidustatic.com
-DOMAIN-SUFFIX,f10.baidu.com
 DOMAIN-SUFFIX,idm.bce.baidu.com
 DOMAIN-SUFFIX,imageplus.baidu.com
 DOMAIN-SUFFIX,itsdata.map.baidu.com
@@ -1019,7 +1016,6 @@ DOMAIN-SUFFIX,app.adjust.com
 DOMAIN-SUFFIX,dfp.suning.com
 DOMAIN-SUFFIX,huodonghezi.com
 DOMAIN-SUFFIX,miniapp.bilibili.com
-DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,pv.sohu.com
 DOMAIN-SUFFIX,e.xroun.com
 DOMAIN-SUFFIX,dflooring.com
@@ -1032,7 +1028,6 @@ DOMAIN-SUFFIX,api.24kidea.com
 DOMAIN-SUFFIX,gss0.bdstatic.com
 DOMAIN-SUFFIX,sss.bxmns.com
 DOMAIN-SUFFIX,extlog.snssdk.com
-DOMAIN-SUFFIX,play.googleapis.com
 DOMAIN-SUFFIX,dcps.nuomi.com
 DOMAIN-SUFFIX,focusbaiduafp.allyes.com
 DOMAIN-SUFFIX,m.simaba.taobao.com
@@ -1080,7 +1075,6 @@ DOMAIN-SUFFIX,video.c-ctrip.com
 DOMAIN-SUFFIX,agn.aty.sohu.com
 DOMAIN-SUFFIX,map-mobile-opnimg.cdn.bcebos.com
 DOMAIN-SUFFIX,www.jinshanju.com
-DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,test-www.douyin.com
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,adserver-ad.321mh.com

@@ -1,8 +1,8 @@
 
 ### 全局配置：
 
-* [QuantumultX.conf](https://raw.githubusercontent.com/demo2099/jscool/master/QuantumultX.conf)
-* 本项目参考nzw9314修改的,加了个自动同步源作者修改脚本功能,自用
+* [QuantumultX_remote.conf](https://raw.githubusercontent.com/demo2099/jscool/master/QuantumultX_remote.conf)
+* 本项目参考nzw9314修改的,加了个自动同步源作者修改脚本功能,自用,只维护远程脚本配置文件
 
 ### 本地配置：
 
@@ -45,7 +45,7 @@
 
 * [@chavyleung](https://github.com/chavyleung)
 
-* [@yichahucha](https://github.com/yichahucha)
+* [@yichahucha](https://github.com/yichahucha/surge)
 
 * [@langkhach270389](https://github.com/langkhach270389)
 
@@ -61,5 +61,28 @@
 
 * [@sazs34](https://github.com/sazs34)
 
-* [@nzw9314](https://github.com/nzw9314)
+* [@uniqueque](https://github.com/uniqueque)
+
+* [@eHpo](https://github.com/eHpo1/Rules)
+
+* [@Sunert](https://github.com/Sunert/Scripts)
+
+* [@songyangzz](https://github.com/songyangzz/QuantumultX.git)
+
+* [@zZPiglet](https://github.com/zZPiglet/Task.git)
+
+* [@Peng-YM](https://github.com/Peng-YM/QuanX)
+
+* [@evilbutcher](https://github.com/evilbutcher/Quantumult_X/tree/master)
+
+* [@lxk0301](https://github.com/lxk0301/scripts)
+
+* [@toulanboy](https://github.com/toulanboy/scripts)
+
+* [@lowking](https://github.com/lowking/Scripts)
+
+* [@nzw9314](https://github.com/nzw9314/QuantumultX/tree/master)
+* [@Orz-3](https://github.com/Orz-3/mini.git)
+
+
 

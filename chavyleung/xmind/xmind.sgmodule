@@ -1,0 +1,8 @@
+#!name=unlock xmind
+#!desc=unlock xmind
+
+[Script]
+Rewrite: xmind = type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/devices,script-path=scripts/xmind.js
+
+[MITM]
+hostname = %APPEND% *.xmind.*

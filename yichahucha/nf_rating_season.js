@@ -10,10 +10,10 @@ const netflixTitleCacheKey = "NetflixTitleCacheKey"
 const map = $tool.read(netflixTitleCacheKey)
 const id = url.match(/id=(\d+)/)[1]
 const title = map ? JSON.parse(map)[id] : null
+const obj = JSON.parse(body)
 
-if (title) {
+if (title && obj.shows[id].seasons) {
     const key = $tool.read(imdbApikeyCacheKey)
-    const obj = JSON.parse(body)
     const seasons = obj.shows[id].seasons.map(item => item.season)
     const promises = []
     for (let index = 0; index < seasons.length; index++) {
@@ -37,7 +37,7 @@ if (title) {
                         const imdbEpisode = imdbEpisodes.find(element => parseInt(element.Episode) == episodeNumber)
                         title = `${title}${imdbEpisode && imdbEpisode.imdbRating ? `  ⭐️ ${imdbEpisode.imdbRating}` : "  ⭐️ N/A"}`
                         value.summary.title = title
-                        console.log(title);
+                        //console.log(title);
                     }
                 }
             }
@@ -57,18 +57,18 @@ function requestSeasonRating(url) {
                 if (code == 200) {
                     const obj = JSON.parse(body)
                     if (obj.Response != "False") {
-                        console.log(`successfully: ${url}`)
+                        //console.log(`successfully: ${url}`)
                         resolve(obj)
                     } else {
-                        console.log(`failed: ${obj.Error} -> ${url}`)
+                        //console.log(`failed: ${obj.Error} -> ${url}`)
                         resolve(null)
                     }
                 } else {
-                    console.log(`failed: ${response.statusCode} -> ${url}`)
+                    //console.log(`failed: ${response.statusCode} -> ${url}`)
                     resolve(null)
                 }
             } else {
-                console.log(`faile: ${error}`)
+                //console.log(`faile: ${error}`)
                 resolve(null)
             }
         })
